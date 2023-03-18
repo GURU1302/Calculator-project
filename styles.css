@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Rubik&display=swap');
+body{
+    background-image: url("wood-background-wallpaper-hd-123273980.jpg");
+}
+
+.top{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    color: #aff6ff;
+}
+
+
+.container{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.input{
+    width: 315px;
+    height: 60px;
+    border: 4px solid black;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.row{
+    padding: 2px;;
+}
+
+.button{
+    height: 80px;
+    width: 80px;
+    border-radius: 60%;
+   font-size: 2rem;
+   border: 4px solid black;
+   cursor: pointer;
+
+   
+}
+
+.zero{
+    width: 160px;
+    border-radius: 35%;
+}
